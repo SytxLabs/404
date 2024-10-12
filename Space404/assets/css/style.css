@@ -60,7 +60,6 @@ img.astronaut {
 }
 
 .text {
-    position: absolute;
     top: 50%;
     left: 62%;
     transform: translate(-50%, -50%);
@@ -93,7 +92,7 @@ img.astronaut {
     background-color: #404be3 !important;
     border-color: #404be3 !important;
     color: #fff;
-    margin-top: 0px;
+    margin-top: 0;
 }
 
 section{
@@ -159,7 +158,7 @@ span:nth-child(1){
     top: 0;
     right: 0;
     left:initial;
-    animation-delay:0 ;
+    animation-delay:0s ;
     animation-duration: 1s;
 }
 
@@ -173,7 +172,7 @@ span:nth-child(2){
 
 span:nth-child(3){
     top: 80px;
-    right: 0px;
+    right: 0;
     left:initial;
     animation-delay:0.4s ;
     animation-duration: 2s;
@@ -204,14 +203,14 @@ span:nth-child(6){
 }
 span:nth-child(7){
     top: 300px;
-    right: 0px;
+    right: 0;
     left:initial;
     animation-delay:1s ;
     animation-duration: 1.75s;
 }
 
 span:nth-child(8){
-    top: 0px;
+    top: 0;
     right: 700px;
     left:initial;
     animation-delay:1.4s ;
@@ -219,7 +218,7 @@ span:nth-child(8){
 }
 
 span:nth-child(9){
-    top: 0px;
+    top: 0;
     right: 1000px;
     left:initial;
     animation-delay:0.75s ;
@@ -227,7 +226,7 @@ span:nth-child(9){
 }
 
 span:nth-child(10){
-    top: 0px;
+    top: 0;
     right: 1000px;
     left:initial;
     animation-delay:2.75s ;
