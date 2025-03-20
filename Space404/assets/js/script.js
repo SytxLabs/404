@@ -126,7 +126,7 @@ function render() {
 
         context.moveTo(star.x, star.y);
 
-        let tailX = velocity.x * 2, tailY = velocity.y * 2;
+        let tailX = velocity.x, tailY = velocity.y;
 
         if (Math.abs(tailX) < 0.1) tailX = 1;
         if (Math.abs(tailY) < 0.1) tailY = 0.5;
